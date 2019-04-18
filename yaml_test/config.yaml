@@ -1,0 +1,16 @@
+# yaml文件
+ 
+subscribers:
+  - name:        "Default task"
+    topic:       "input/cmd_default_check"
+    timeout:     0.5
+    priority:    1
+    short_desc:  "Default controller"
+  - name:        "Navigation stack"
+    topic:       "input/cmd_serial_navi"
+    timeout:     1.0
+    priority:    3
+    short_desc:  "Navigation controller"
+publisher:       "output/cmd_vel"
+
+xxx:   
